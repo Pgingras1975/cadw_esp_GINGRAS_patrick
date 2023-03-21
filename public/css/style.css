@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(17, 14, 52);
+    margin-top:20px;
+}
+
+a {
+    color: black;
+}
+
+h4 a {
+    color: rgb(22, 252, 1);
+}
+
+.liste {
+    height: 65vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    border-radius: 2%;
+}
+
+.liste::-webkit-scrollbar {
+    display: none;
+}
+
+.container-min-w {
+    min-width: 420px;
+}
+
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.chat-message-group {
+    opacity: 0.6;
+}
+
+.chat-message-group:first-child {
+    opacity: 1;
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+
+.bubble-width {
+    width: 500px;
+}
